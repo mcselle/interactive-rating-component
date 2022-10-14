@@ -1,0 +1,20 @@
+*, *::after, *::before {
+  box-sizing: border-box;
+}
+
+:root{
+  --clr-primary-orange: hsl(25, 97%, 53%);
+  --clr-white: hsl(0, 0%, 100%);
+  --clr-grey-1: hsl(217, 12%, 63%);
+  --clr-grey-2: hsl(216, 12%, 54%);
+  --clr-blue-1: hsl(213, 19%, 18%);
+  --clr-blue-2: hsl(216, 12%, 8%);
+
+  --fontsize-p: 15px
+}
+
+body {
+  font-family: 'Overpass', sans-serif;
+  font-size: var(--fontsize-p);
+  font-weight: 400;
+}

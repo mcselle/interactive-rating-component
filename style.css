@@ -2,7 +2,7 @@
   box-sizing: border-box;
 }
 
-:root{
+:root {
   --clr-primary-orange: hsl(25, 97%, 53%);
   --clr-white: hsl(0, 0%, 100%);
   --clr-grey-1: hsl(217, 12%, 63%);
@@ -17,4 +17,9 @@ body {
   font-family: 'Overpass', sans-serif;
   font-size: var(--fontsize-p);
   font-weight: 400;
+}
+
+.hidden {
+  display: none;
+  visibility: hidden;
 }

@@ -51,7 +51,9 @@
 
   <div class="container">
 
-    <div class="icon-star"></div>
+    <div class="icon-container">
+      <img src="images/icon-star.svg" alt="star icon">
+    </div>
 
     <h1 class="title">
       How did we do?
@@ -66,24 +68,27 @@
 
     <div id="rating" class="rating-input">
       <label>
+        
         <input type="radio" value="1" name="rating">
-        1
+        <span>1</span>
+        
+        
       </label>
       <label>
         <input type="radio" value="2" name="rating">
-        2
+        <span>2</span>
       </label>
       <label>
         <input type="radio" value="3" name="rating">
-        3
+        <span>3</span>
       </label>
       <label>
         <input type="radio" value="4" name="rating">
-        4
+        <span>4</span>
       </label>
       <label>
         <input type="radio" value="5" name="rating">
-        5
+        <span>5</span>
       </label>
     </div>
 
@@ -100,17 +105,30 @@
 <!-- Thank you state start -->
 <div id="cardThanks" class="card hidden">
 
-  <div class="thanks-image"></div>
-
-  <div class="rating-show">
-    You selected <span id="submittedRating"> None </span> out of 5
+  <div class="thanks-image centered">
+    <img src="images/illustration-thank-you.svg" alt="thank you image">
   </div>
 
-  <h1 class="title">
+  <!-- <div class="centered margin">
+    <div class="rating-show">
+      You selected <span id="submittedRating"> None </span> out of 5
+    </div>
+  </div> -->
+
+  <div class="rateing-show-1">
+
+    <div class="rating-show__text">
+      <span>You selected </span>
+      <span id="submittedRating"> None </span>
+      <span>out of 5</span>
+    </div>
+  </div>
+
+  <h1 class="title centered">
     Thank you!
   </h1>
 
-  <p class="article">
+  <p class="article centered">
 
     We appreciate you taking the time to give a rating. If you ever need more support,
     don’t hesitate to get in touch!
